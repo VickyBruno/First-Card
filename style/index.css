@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Borel', cursive;
+    font-family: 'Cedarville Cursive', cursive;
+    
+   
+}
+
+
+body {
+    background-color: rgb(235, 232, 228, 0.2);
+
+    /*border: solid 2px green;*/
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    
+
+}
+
+
+.menu {
+    /*border: yellow 2px solid;*/
+    width:70%;
+    margin-bottom: 1rem;
+
+}
+
+.menu p{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1.5rem;
+    
+}
+
+.card {
+    display: flex;
+    border-radius: 10%; 
+    column-gap: 2%;
+    border: 4px solid rgb(63, 63, 63,0.7);
+    width: 70%;
+    height: 400px;
+    background: rgb(239,115,249);
+    background: linear-gradient(70deg, rgba(239,115,249,0.7) 0%, rgba(115,176,249,0.7) 100%);
+    -webkit-box-shadow: 0px 0px 46px -3px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 0px 46px -3px rgba(0,0,0,0.63);
+    box-shadow: 0px 0px 46px -3px rgba(0,0,0,0.63); 
+    
+  
+   
+
+}
+
+.part-one, .part-two {
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    color: rgb(28, 62, 102,0.7);
+}
+.part-one {
+    display: flex;
+    flex-direction: column;
+   
+    
+      
+    
+    /*border: green solid 2px;*/
+   
+}
+
+.img {
+    
+    
+    margin-top: 10%;
+    margin-left: 2%;
+    align-self: center;
+    
+
+
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /*border: 2px orange solid;*/
+    
+}
+.descripcion {
+   width:100%;
+   text-align: center;
+    margin-top: 5%;
+    font-weight: bolder;
+    
+    /*border: solid red 2px;*/
+    
+}
+
+.texto{
+    width: 50%;
+    /*border: green solid 2px;*/
+  
+}
+
+h1 {
+    /*border: 2px orange solid;*/
+    align-items: center;
+    color: rgb(28, 53, 81);
+    font-size: 1.8rem;
+    
+    
+   
+}
+
+.part-two {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /*border: green solid 2px;*/
+}
+
+.part-two h1 {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.part-two h4 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 8%;
+    margin-bottom: 3%;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    
+    /*border: 2px rgb(30, 29, 29) solid;*/
+    margin-top: 15%;
+}
+
+.part-two button {
+    border: 0;
+    background-color: transparent;
+}
+
+.part-two button:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+.fa-brands {
+    font-size: large;
+    color: rgb(28, 53, 81);
+}
+
+@media screen and (max-width:500px) {
+    .menu {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+    }
+   
+}
+
+@media screen and (min-width:900px) {
+    .menu {
+        width: 60%;
+    }
+    .card {
+        width: 60%;
+    }
+   
+}
+
+@media screen and (min-width:1000px) {
+    .menu {
+        width: 50%;
+    }
+    .card {
+        width: 50%;
+    }
+   
+}
